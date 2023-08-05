@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1> Data displaying in List format by using ListView of ClsBasedViews </h1>
+        {% for i in tl %}
+        <h1><i>
+            <a href="{{i.id}}">{{i.name}}</a>
+            <!-- <a href="{{i.id}}">{{i.course}}</a>
+                <a href="{{i.id}}">{{i.area}}</a>
+                <a href="{{i.id}}">{{i.pin}}</a> -->
+        </i></h1>
+        {% endfor %}
+    </center>
+</body>
+</html>
